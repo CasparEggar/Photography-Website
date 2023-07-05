@@ -95,6 +95,35 @@ body {
     justify-content: center;
     border: solid 1px rgba(250, 250, 250, 0.5);
   }
+  .title {
+    text-shadow: 0px 0px 75px rgb(255, 255, 255);
+    height: auto;
+    width: auto;
+    font-size: 1.5cm;
+    transition-duration: 2.25s;
+    position: absolute;
+    left: 50%;
+    top: 4.5cm;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid rgba(24, 24, 24, 0);
+  }
+  .title:hover {
+    text-shadow: rgba(255, 255, 255, 0.7);
+    cursor: default;
+  }
+  .welcome {
+    height: auto;
+    width: auto;
+    font-size: 0.5cm;
+    transition-duration: 1.5s;
+    position: absolute;
+    left: 50%;
+    top: 10cm;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid rgba(24, 24, 24, 0);
+  }
 }
 .box {
   background-color: rgba(0, 0, 0, 0.5);
